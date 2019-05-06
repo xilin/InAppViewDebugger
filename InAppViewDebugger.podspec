@@ -12,4 +12,5 @@ Pod::Spec.new do |spec|
   spec.source             = { :git => "https://github.com/indragiek/InAppViewDebugger.git", :tag => "#{spec.version}" }
   spec.source_files       = "InAppViewDebugger/**/*.{h,m,swift}"
   spec.resources          = "InAppViewDebugger/**/*.xcassets"
+  spec.static_framework   = true
 end
